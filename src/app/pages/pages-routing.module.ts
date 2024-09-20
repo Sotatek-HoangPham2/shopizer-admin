@@ -35,10 +35,6 @@ const routes: Routes = [{
       loadChildren: 'app/pages/catalogue/catalogue.module#CatalogueModule'
     },
     {
-      path: 'content',
-      loadChildren: 'app/pages/content/content.module#ContentModule'
-    },
-    {
       path: 'shipping',
       loadChildren: 'app/pages/shipping/shipping.module#ShippingModule'
     },
